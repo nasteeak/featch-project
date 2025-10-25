@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>fetch-project</title>
+  </head>
+  <body>
+    <header>
+      <h1>Fetch Project</h1>
+    </header>
+  
+    <div class="container">
+      <aside class="sidebar">
+        <h2>Авторы</h2>
+        <ul id="author-list"></ul>
+      </aside>
+  
+      <main class="content">
+        <h2>Посты</h2>
+        <div id="posts-container"></div>
+      </main>
+    </div>
+  
+    <!-- Модальное окно -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3 id="modal-title">Название поста</h3>
+        <p id="modal-body">Содержание поста</p>
+        <div id="modal-comments">
+          <h4>Комментарии:</h4>
+          <ul id="comments-list"></ul>
+        </div>
+      </div>
+    </div>
+  
+    <script src="main.js"></script>
+  </body>
+</html>
